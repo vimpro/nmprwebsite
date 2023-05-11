@@ -1,0 +1,103 @@
+:root {
+    --accent-light: #e5ac77;
+    --accent-dark: #3f4d53;
+    --text-dark: #595959;
+    --text-light: #f3f3f3;
+    --background: #212A3E;
+    --secondary-text: #9BA4B5;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+section {
+    max-width: 100%;
+    padding: 5rem;
+}
+
+h1 {
+    font-size: 4rem; 
+    text-align: center;
+    color: var(--text-light)
+}
+
+h2 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+p {
+    word-break: break-all;
+    white-space: normal;
+}
+
+.names {
+    color: var(--secondary-text);
+    text-align: center;
+}
+
+.names a {
+    color: var(--secondary-text);
+    text-decoration: none;
+    border-bottom: 1px solid;
+    transition: 0.2s;
+}
+
+.names a:hover {
+    border-bottom: 2px solid #638dda;
+    color: #638dda;
+}
+
+/* Dark Background theme */
+.dark-bg {
+    background-color: var(--accent-dark);
+}
+
+.dark-bg h2 {
+    color: var(--text-light);
+}
+
+.dark-bg p {
+    color: #9BA4B5;
+}
+
+/* Color background theme */
+.color-bg {
+    background-color: var(--accent-light);
+}
+
+/* Light color background theme */
+.light-bg {
+    background-color: #eeeeee;
+}
+
+blockquote {
+    padding: 0;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* Table styles */
+
+.schedule {
+    border-spacing: 0.5rem;
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+.schedule td {
+    border: 1px solid var(--text-dark);
+    padding: 1rem;
+    width: 30rem;
+}
+
+.schedule td:nth-child(1) {
+    color: #e06666;
+}
+
+.schedule td:nth-child(2) {
+    color: #3d85c6;
+}
